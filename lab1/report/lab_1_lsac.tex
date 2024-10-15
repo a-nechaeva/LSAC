@@ -151,7 +151,7 @@
 
 ДОБАВИТЬ СТРАНИЦУ СОДЕРЖАНИЕ
 
-\section{Задание. Одноканальная система}
+\section{Задание. Одноканальная система в форме вход-выход}
 \subsection{Математическая модель}
 Возьмем коэффициенты $a_2 = 9$, $a_1 = 23$, $a_0 = 15$, $b_2 = 14$, $b_1 = 6$ и $b_0 = 16$. Рассмотрим математическую модель в форме дифференциального уравнения
 \begin{equation}
@@ -183,6 +183,132 @@ p^3[y] = 14 p^2[u] + 6 p[u] + 16 u - 9p^2[y] - 23 p[y] - 15 y  \Leftrightarrow \
 
 \newpage
 \section{Задание. Переход от формы вход-выход к форме вход-состояние-выход}
+\subsection{Математическая модель}
+Для системы из 1 задания определим передаточную функцию $W(p)$.
+\begin{equation}
+\dddot{y} + 9\ddot{y} + 23 \dot{y} + 15 y = 14 \ddot{u} + 6 \dot{u} + 16 u
+\end{equation}
+Перепишем с применением оператора дифференцирования
+\begin{multline}
+p^3[y] + 9p^2[y] + 23 p[y] + 15 y = 14 p^2[u] + 6 p[u] + 16 u \Leftrightarrow \\
+\Leftrightarrow \left( p^3 + 9p^2 + 23 p + 15 \right) [y] = \left( 14 p^2 + 6 p + 16 \right) [u] \Leftrightarrow \\
+\Leftrightarrow  y = \frac{14 p^2 + 6 p + 16}{p^3 + 9p^2 + 23 p + 15} [u] + 0
+\end{multline}
+Получим передаточную функцию
+\begin{equation}
+W(p) = \frac{14 p^2 + 6 p + 16}{p^3 + 9p^2 + 23 p + 15}
+\end{equation}
+
+
+\subsubsection{Каноническая управляемая форма}
+
+\begin{multline}
+\begin{bmatrix}
+\dot{x_1}\\
+\dot{x_2}\\
+\dot{x_3}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 1 & 0\\
+0 & 0 & 1\\
+-a_0 & -a_1 & -a_2
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}
++
+\begin{bmatrix}
+0\\
+0\\
+1
+\end{bmatrix}
+u\\
+y = 
+\begin{bmatrix}
+b_0 & b_1 & b_2
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}\\
+\end{multline}
+
+\subsubsection{Каноническая наблюдаемая форма}
+
+\begin{multline}
+\begin{bmatrix}
+\dot{x_1}\\
+\dot{x_2}\\
+\dot{x_3}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 0 & -a_0\\
+1 & 0 & -a_1\\
+0 & 1 & -a_2
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}
++
+\begin{bmatrix}
+b_0\\
+b_1\\
+b_2
+\end{bmatrix}
+u\\
+y = 
+\begin{bmatrix}
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}\\
+\end{multline}
+
+\subsubsection{Каноническая диагональная форма}
+\begin{multline}
+\begin{bmatrix}
+\dot{x_1}\\
+\dot{x_2}\\
+\dot{x_3}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 0 & -a_0\\
+1 & 0 & -a_1\\
+0 & 1 & -a_2
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}
++
+\begin{bmatrix}
+b_0\\
+b_1\\
+b_2
+\end{bmatrix}
+u\\
+y = 
+\begin{bmatrix}
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}\\
+\end{multline}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  28 OCT 2024 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  28 OCT 2024 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1422,17 +1422,55 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[4 <./pic/gr1_2.png (PNG copy)>] (./lab_4.aux)
+[4 <./pic/gr1_2.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[5]
+Overfull \hbox (11.41968pt too wide) in paragraph at lines 256--256
+[]\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния для си-сте-мы с аста-
+ []
+
+
+Overfull \hbox (11.41968pt too wide) in paragraph at lines 257--257
+[]\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния для си-сте-мы с аста-
+ []
+
+
+Overfull \hbox (11.41968pt too wide) in paragraph at lines 258--258
+[]\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния для си-сте-мы с аста-
+ []
+
+
+Overfull \hbox (1.93309pt too wide) in paragraph at lines 259--259
+[]\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния за гар-мо-ни-че-ским
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[6] (./lab_4.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
-Package rerunfilecheck Info: File `lab_4.out' has not changed.
-(rerunfilecheck)             Checksum: 2FEB5D3A5F8B603F9179A07BBF068C5C;1667.
+
+
+Package rerunfilecheck Warning: File `lab_4.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `lab_4.out':
+(rerunfilecheck)             Before: 2FEB5D3A5F8B603F9179A07BBF068C5C;1667
+(rerunfilecheck)             After:  0633B4D01B22E2750F43BD6589D523FD;4858.
  ) 
 Here is how much of TeX's memory you used:
- 53023 strings out of 475734
- 1311696 string characters out of 5786229
+ 53031 strings out of 475734
+ 1311765 string characters out of 5786229
  2004021 words of memory out of 5000000
  73120 multiletter control sequences out of 15000+600000
  529607 words of font info for 72 fonts, out of 8000000 for 9000
@@ -1453,10 +1491,10 @@ fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type
 m-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
 ti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab_4.pdf (5 pages, 358125 bytes).
+Output written on lab_4.pdf (7 pages, 371445 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

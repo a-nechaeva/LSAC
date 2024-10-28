@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  28 OCT 2024 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  28 OCT 2024 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,12 +1385,18 @@ been already used, duplicate ignored
                    \relax 
 l.184 \newpage
                [1]
+<pic/gr1.png, id=38, 526.96875pt x 395.22656pt>
+File: pic/gr1.png Graphic file (type png)
+<use pic/gr1.png>
+Package pdftex.def Info: pic/gr1.png  used on input line 188.
+(pdftex.def)             Requested size: 309.84842pt x 232.39766pt.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[2 <./pic/t_1_sch_1.png (PNG copy)>] (./lab_4.aux)
+[2 <./pic/t_1_sch_1.png (PNG copy)> <./pic/gr1.png (PNG copy)>] (./lab_4.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1399,10 +1405,10 @@ Package rerunfilecheck Info: File `lab_4.out' has not changed.
 (rerunfilecheck)             Checksum: E5416405179CB00C513F879F5441D8A4;552.
  ) 
 Here is how much of TeX's memory you used:
- 52986 strings out of 475734
- 1311025 string characters out of 5786229
+ 52994 strings out of 475734
+ 1311166 string characters out of 5786229
  2003021 words of memory out of 5000000
- 73094 multiletter control sequences out of 15000+600000
+ 73101 multiletter control sequences out of 15000+600000
  529607 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,89p,758b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1421,10 +1427,10 @@ onts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1
 -super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sft
 i1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
 
-Output written on lab_4.pdf (3 pages, 247209 bytes).
+Output written on lab_4.pdf (3 pages, 269109 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

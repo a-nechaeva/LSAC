@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  28 OCT 2024 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  28 OCT 2024 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
-<pic/t_1_sch_1.png, id=35, 832.3095pt x 307.1475pt>
+<pic/t_1_sch_1.png, id=55, 832.3095pt x 307.1475pt>
 File: pic/t_1_sch_1.png Graphic file (type png)
 <use pic/t_1_sch_1.png>
 Package pdftex.def Info: pic/t_1_sch_1.png  used on input line 182.
@@ -1385,7 +1385,7 @@ been already used, duplicate ignored
                    \relax 
 l.186 \newpage
                [1]
-<pic/gr1.png, id=50, 526.96875pt x 395.22656pt>
+<pic/gr1.png, id=70, 526.96875pt x 395.22656pt>
 File: pic/gr1.png Graphic file (type png)
 <use pic/gr1.png>
 Package pdftex.def Info: pic/gr1.png  used on input line 190.
@@ -1397,12 +1397,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [2 <./pic/t_1_sch_1.png (PNG copy)> <./pic/gr1.png (PNG copy)>]
-<pic/t_1_sch_2.png, id=59, 878.68275pt x 410.7345pt>
+<pic/t_1_sch_2.png, id=79, 878.68275pt x 410.7345pt>
 File: pic/t_1_sch_2.png Graphic file (type png)
 <use pic/t_1_sch_2.png>
 Package pdftex.def Info: pic/t_1_sch_2.png  used on input line 203.
 (pdftex.def)             Requested size: 344.27837pt x 160.93161pt.
-<pic/gr1_2.png, id=60, 526.96875pt x 395.22656pt>
+<pic/gr1_2.png, id=80, 526.96875pt x 395.22656pt>
 File: pic/gr1_2.png Graphic file (type png)
 <use pic/gr1_2.png>
 Package pdftex.def Info: pic/gr1_2.png  used on input line 233.
@@ -1423,28 +1423,34 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [4 <./pic/gr1_2.png (PNG copy)>]
+<pic/t_2_sch_1.png, id=95, 870.8535pt x 425.1885pt>
+File: pic/t_2_sch_1.png Graphic file (type png)
+<use pic/t_2_sch_1.png>
+Package pdftex.def Info: pic/t_2_sch_1.png  used on input line 248.
+(pdftex.def)             Requested size: 344.27837pt x 168.0871pt.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[5]
-Overfull \hbox (11.41968pt too wide) in paragraph at lines 256--256
+[5 <./pic/t_2_sch_1.png (PNG copy)>]
+Overfull \hbox (11.41968pt too wide) in paragraph at lines 259--259
 []\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния для си-сте-мы с аста-
  []
 
 
-Overfull \hbox (11.41968pt too wide) in paragraph at lines 257--257
+Overfull \hbox (11.41968pt too wide) in paragraph at lines 260--260
 []\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния для си-сте-мы с аста-
  []
 
 
-Overfull \hbox (11.41968pt too wide) in paragraph at lines 258--258
+Overfull \hbox (11.41968pt too wide) in paragraph at lines 261--261
 []\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния для си-сте-мы с аста-
  []
 
 
-Overfull \hbox (1.93309pt too wide) in paragraph at lines 259--259
+Overfull \hbox (1.93309pt too wide) in paragraph at lines 262--262
 []\T2A/cmr/bx/n/14.4 Задание. За-да-ча сле-же-ния за гар-мо-ни-че-ским
  []
 
@@ -1458,21 +1464,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
-
-
-Package rerunfilecheck Warning: File `lab_4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lab_4.out':
-(rerunfilecheck)             Before: 2FEB5D3A5F8B603F9179A07BBF068C5C;1667
-(rerunfilecheck)             After:  0633B4D01B22E2750F43BD6589D523FD;4858.
+Package rerunfilecheck Info: File `lab_4.out' has not changed.
+(rerunfilecheck)             Checksum: 0633B4D01B22E2750F43BD6589D523FD;4858.
  ) 
 Here is how much of TeX's memory you used:
- 53031 strings out of 475734
- 1311765 string characters out of 5786229
+ 53044 strings out of 475734
+ 1312003 string characters out of 5786229
  2004021 words of memory out of 5000000
- 73120 multiletter control sequences out of 15000+600000
+ 73132 multiletter control sequences out of 15000+600000
  529607 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,1002b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1491,10 +1490,10 @@ fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type
 m-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
 ti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on lab_4.pdf (7 pages, 371445 bytes).
+Output written on lab_4.pdf (7 pages, 427416 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

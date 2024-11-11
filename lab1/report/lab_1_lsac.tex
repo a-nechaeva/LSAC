@@ -171,16 +171,25 @@ p^3[y] = 14 p^2[u] + 6 p[u] + 16 u - 9p^2[y] - 23 p[y] - 15 y  \Leftrightarrow \
 Получим выражение с применением операторов интегрирования. 
 
 \subsection{Структурная схема системы}
-В среде моделирования \textit{Simulink} построим структурную схему системы. Будем использовать блоки элементарных операций: <<интегратор>>, <<сумматор>>, <<усилитель>>. Также для построения графиков выходного сигнала нам понадобится блок <<scope>> (осциллограф времени), на структурной схеме (рисунок 1) он расположен в верхнем правом углу.
+В среде моделирования \textit{Simulink} построим структурную схему системы. Будем использовать блоки элементарных операций: <<интегратор>>, <<сумматор>>, <<усилитель>>.
 
 \begin{figure}[h]
-\center{\includegraphics[width=1\linewidth]{pic/schem1.png}}
+\center{\includegraphics[width=1\linewidth]{pic/sch_1.png}}
 \caption{Структурная схема первой системы.}
 \end{figure}
 
 \newpage
 \subsection{Графики сигналов}
 
+Выполним моделирование при входном воздействии вида $u(t)=1$ и нулевых начальных условиях $\ddot{y}(0)$, $\dot{y}(0)$, $y(0)$. Полученные графики выходных сигналов приведены на рисунке 2.
+
+\begin{figure}[h]
+\center{\includegraphics[width=1\linewidth]{pic/gr_1.png}}
+\caption{Графики сигналов для одноканальной системы в форме вход-выход.}
+\end{figure}
+
+\newpage
+\,
 \newpage
 \section{Задание. Переход от формы вход-выход к форме вход-состояние-выход}
 \subsection{Математическая модель}
@@ -225,8 +234,32 @@ x_3
 0\\
 1
 \end{bmatrix}
-u\\
-y = 
+u \Leftrightarrow\\
+\Leftrightarrow
+\begin{bmatrix}
+\dot{x_1}\\
+\dot{x_2}\\
+\dot{x_3}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 1 & 0\\
+0 & 0 & 1\\
+-15 & -23 & -9
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}
++
+\begin{bmatrix}
+0\\
+0\\
+1
+\end{bmatrix}
+u,\\
+ y = 
 \begin{bmatrix}
 b_0 & b_1 & b_2
 \end{bmatrix}
@@ -234,7 +267,16 @@ b_0 & b_1 & b_2
 x_1\\
 x_2\\
 x_3
-\end{bmatrix}\\
+\end{bmatrix}\Leftrightarrow
+ y = 
+\begin{bmatrix}
+16 & 6 & 14
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}
 \end{multline}
 
 \subsubsection{Каноническая наблюдаемая форма}
@@ -262,6 +304,30 @@ b_0\\
 b_1\\
 b_2
 \end{bmatrix}
+u \Leftrightarrow\\
+ \Leftrightarrow
+\begin{bmatrix}
+\dot{x_1}\\
+\dot{x_2}\\
+\dot{x_3}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 0 & -15\\
+1 & 0 & -23\\
+0 & 1 & -9
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}
++
+\begin{bmatrix}
+16\\
+6\\
+14
+\end{bmatrix}
 u\\
 y = 
 \begin{bmatrix}
@@ -271,7 +337,17 @@ y =
 x_1\\
 x_2\\
 x_3
-\end{bmatrix}\\
+\end{bmatrix} \Leftrightarrow\\
+ \Leftrightarrow
+y = 
+\begin{bmatrix}
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix} 
 \end{multline}
 
 \subsubsection{Каноническая диагональная форма}
@@ -283,9 +359,9 @@ x_3
 \end{bmatrix}
 =
 \begin{bmatrix}
-0 & 0 & -a_0\\
-1 & 0 & -a_1\\
-0 & 1 & -a_2
+\lambda_1 & 0 & 0\\
+0 & \lambda_2 & 0\\
+0 & 0 & \lambda_3
 \end{bmatrix}
 \begin{bmatrix}
 x_1\\
@@ -294,14 +370,14 @@ x_3
 \end{bmatrix}
 +
 \begin{bmatrix}
-b_0\\
-b_1\\
-b_2
+\beta_1\\
+\beta_2\\
+\beta_3
 \end{bmatrix}
 u\\
 y = 
 \begin{bmatrix}
-0 & 0 & 1
+\gamma_1 & \gamma_2 & \gamma_3
 \end{bmatrix}
 \begin{bmatrix}
 x_1\\
@@ -309,6 +385,68 @@ x_2\\
 x_3
 \end{bmatrix}\\
 \end{multline}
+
+Запишем передаточную функцию
+
+\begin{equation}
+W(p) = \frac{14 p^2 + 6 p + 16}{p^3 + 9 p^2 + 23 p + 15} 
+\end{equation}
+
+    Разложим знаменатель на произведение множителей. Заметим, что один из корней $p=-1$, после применения схемы Горнера останется квадратное уравнение, решение которого находится по теореме Виета
+
+\begin{equation}
+\left(p+1 \right) \left( p^2 + 8p + 15 \right) =  \left(p+1 \right) \left(p+3 \right) \left(p+5 \right)
+\end{equation}
+
+    Найдем разложение вида
+\begin{multline}
+      \frac{14 p^2 + 6 p + 16}{p^3 + 9 p^2 + 23 p + 15} = \frac{A}{p+1} + \frac{B}{p+3} + \frac{C}{p+5} =\\\\= \frac{A\left(p+3 \right) \left(p+5 \right) + B \left(p+1 \right) \left(p+5 \right) + C \left(p+3 \right) \left(p+1 \right)}{p^3 + 9 p^2 + 23 p + 15} = \\\\ =
+      \frac{Ap^2+8Ap+15A+Bp^2+6Bp+5B+Cp^2+4Cp+3C}{p^3 + 9 p^2 + 23 p + 15} = \\\\ = \frac{\left( A + B + C\right) p^2 + \left( 8A + 6B + 4C\right)p  +15A+5B+3C}{p^3 + 9 p^2 + 23 p + 15} = \\\\ =
+      \frac{3}{p+1} - \frac{31}{p+3} + \frac{42}{p+5}
+\end{multline}
+Теперь заметим, что
+
+\begin{multline}
+W(p) = \frac{\beta_1 \cdot \gamma_1}{p-\lambda_1} + \frac{\beta_2 \cdot \gamma_2}{p-\lambda_2} + \frac{\beta_3 \cdot \gamma_3}{p-\lambda_3} = \frac{3}{p+1} - \frac{31}{p+3} + \frac{42}{p+5} =\\
+= \frac{3 \cdot 1}{p+1} + \frac{31 \cdot (-1)}{p+3} + \frac{6 \cdot 7}{p+5}
+\end{multline}
+
+Наконец запишем систему в канонической диагональной форме.
+\begin{multline}
+\begin{bmatrix}
+\dot{x_1}\\
+\dot{x_2}\\
+\dot{x_3}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-1 & 0 & 0\\
+0 & -3 & 0\\
+0 & 0 & -5
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}
++
+\begin{bmatrix}
+3\\
+31\\
+6
+\end{bmatrix}
+u\\
+y = 
+\begin{bmatrix}
+1 & -1 & 7
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3
+\end{bmatrix}\\
+\end{multline}
+
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  11 NOV 2024 04:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  11 NOV 2024 05:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,7 +1355,7 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 149.
 
-<pic/sch_1.png, id=55, 859.41075pt x 328.8285pt>
+<pic/sch_1.png, id=79, 859.41075pt x 328.8285pt>
 File: pic/sch_1.png Graphic file (type png)
 <use pic/sch_1.png>
 Package pdftex.def Info: pic/sch_1.png  used on input line 177.
@@ -1375,7 +1375,7 @@ been already used, duplicate ignored
                    \relax 
 l.181 \newpage
                [1]
-<pic/gr_1.png, id=68, 526.96875pt x 395.22656pt>
+<pic/gr_1.png, id=92, 526.96875pt x 395.22656pt>
 File: pic/gr_1.png Graphic file (type png)
 <use pic/gr_1.png>
 Package pdftex.def Info: pic/gr_1.png  used on input line 187.
@@ -1408,24 +1408,48 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [5]
+<pic/sch_2_1.png, id=121, 586.5915pt x 149.96025pt>
+File: pic/sch_2_1.png Graphic file (type png)
+<use pic/sch_2_1.png>
+Package pdftex.def Info: pic/sch_2_1.png  used on input line 456.
+(pdftex.def)             Requested size: 344.27837pt x 88.01584pt.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[6] (./lab_1_lsac.aux)
+[6]
+<pic/gr_2_1.png, id=130, 526.96875pt x 395.22656pt>
+File: pic/gr_2_1.png Graphic file (type png)
+<use pic/gr_2_1.png>
+Package pdftex.def Info: pic/gr_2_1.png  used on input line 461.
+(pdftex.def)             Requested size: 275.42374pt x 206.57436pt.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[7 <./pic/sch_2_1.png (PNG copy)> <./pic/gr_2_1.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[8] (./lab_1_lsac.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
 Package rerunfilecheck Info: File `lab_1_lsac.out' has not changed.
-(rerunfilecheck)             Checksum: 314B689B2207A72971750DEE46AE0BA7;2801.
+(rerunfilecheck)             Checksum: 7D79723A7612F2B35E5904F0A35B6C10;4841.
  ) 
 Here is how much of TeX's memory you used:
- 53023 strings out of 475734
- 1311687 string characters out of 5786229
+ 53053 strings out of 475734
+ 1312260 string characters out of 5786229
  2018067 words of memory out of 5000000
- 73109 multiletter control sequences out of 15000+600000
+ 73129 multiletter control sequences out of 15000+600000
  528813 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,89p,763b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1443,10 +1467,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist
 e1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/
 cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
 fti1200.pfb>
-Output written on lab_1_lsac.pdf (7 pages, 305423 bytes).
+Output written on lab_1_lsac.pdf (9 pages, 343895 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 NOV 2024 04:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 NOV 2024 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,7 +1355,7 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 149.
 
-<pic/sch_1.png, id=79, 859.41075pt x 328.8285pt>
+<pic/sch_1.png, id=111, 859.41075pt x 328.8285pt>
 File: pic/sch_1.png Graphic file (type png)
 <use pic/sch_1.png>
 Package pdftex.def Info: pic/sch_1.png  used on input line 177.
@@ -1375,7 +1375,7 @@ been already used, duplicate ignored
                    \relax 
 l.181 \newpage
                [1]
-<pic/gr_1.png, id=92, 526.96875pt x 395.22656pt>
+<pic/gr_1.png, id=124, 526.96875pt x 395.22656pt>
 File: pic/gr_1.png Graphic file (type png)
 <use pic/gr_1.png>
 Package pdftex.def Info: pic/gr_1.png  used on input line 187.
@@ -1408,7 +1408,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [5]
-<pic/sch_2_1.png, id=121, 586.5915pt x 149.96025pt>
+<pic/sch_2_1.png, id=153, 586.5915pt x 149.96025pt>
 File: pic/sch_2_1.png Graphic file (type png)
 <use pic/sch_2_1.png>
 Package pdftex.def Info: pic/sch_2_1.png  used on input line 456.
@@ -1420,7 +1420,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [6]
-<pic/gr_2_1.png, id=130, 526.96875pt x 395.22656pt>
+<pic/gr_2_1.png, id=162, 526.96875pt x 395.22656pt>
 File: pic/gr_2_1.png Graphic file (type png)
 <use pic/gr_2_1.png>
 Package pdftex.def Info: pic/gr_2_1.png  used on input line 461.
@@ -1432,12 +1432,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [7 <./pic/sch_2_1.png (PNG copy)> <./pic/gr_2_1.png (PNG copy)>]
-<pic/sch_2_2.png, id=137, 744.98325pt x 352.31625pt>
+<pic/sch_2_2.png, id=170, 744.98325pt x 352.31625pt>
 File: pic/sch_2_2.png Graphic file (type png)
 <use pic/sch_2_2.png>
 Package pdftex.def Info: pic/sch_2_2.png  used on input line 469.
 (pdftex.def)             Requested size: 344.27837pt x 162.81468pt.
-<pic/gr_2_2.png, id=138, 526.96875pt x 395.22656pt>
+<pic/gr_2_2.png, id=171, 526.96875pt x 395.22656pt>
 File: pic/gr_2_2.png Graphic file (type png)
 <use pic/gr_2_2.png>
 Package pdftex.def Info: pic/gr_2_2.png  used on input line 474.
@@ -1458,12 +1458,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [9 <./pic/gr_2_2.png (PNG copy)>]
-<pic/sch_2_3.png, id=149, 735.34724pt x 413.74574pt>
+<pic/sch_2_3.png, id=182, 735.34724pt x 413.74574pt>
 File: pic/sch_2_3.png Graphic file (type png)
 <use pic/sch_2_3.png>
 Package pdftex.def Info: pic/sch_2_3.png  used on input line 484.
 (pdftex.def)             Requested size: 344.27837pt x 193.70924pt.
-<pic/gr_2_3.png, id=150, 526.96875pt x 395.22656pt>
+<pic/gr_2_3.png, id=183, 526.96875pt x 395.22656pt>
 File: pic/gr_2_3.png Graphic file (type png)
 <use pic/gr_2_3.png>
 Package pdftex.def Info: pic/gr_2_3.png  used on input line 489.
@@ -1484,13 +1484,15 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [11 <./pic/gr_2_3.png (PNG copy)>]
-File: pic/sch_2_2.png Graphic file (type png)
-<use pic/sch_2_2.png>
-Package pdftex.def Info: pic/sch_2_2.png  used on input line 499.
-(pdftex.def)             Requested size: 344.27837pt x 162.81468pt.
-File: pic/gr_2_2.png Graphic file (type png)
-<use pic/gr_2_2.png>
-Package pdftex.def Info: pic/gr_2_2.png  used on input line 504.
+<pic/sch_2_4.png, id=194, 675.7245pt x 376.40625pt>
+File: pic/sch_2_4.png Graphic file (type png)
+<use pic/sch_2_4.png>
+Package pdftex.def Info: pic/sch_2_4.png  used on input line 499.
+(pdftex.def)             Requested size: 344.27837pt x 191.7751pt.
+<pic/gr_2_4.png, id=195, 526.96875pt x 395.22656pt>
+File: pic/gr_2_4.png Graphic file (type png)
+<use pic/gr_2_4.png>
+Package pdftex.def Info: pic/gr_2_4.png  used on input line 504.
 (pdftex.def)             Requested size: 275.42374pt x 206.57436pt.
 
 
@@ -1501,46 +1503,149 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[12]
+[12 <./pic/sch_2_4.png (PNG copy)>]
+Overfull \hbox (6.51476pt too wide) in paragraph at lines 513--513
+[]\T2A/cmr/bx/n/14.4 Многоканальная си-сте-ма в фор-ме вход-выход 
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[13] (./lab_1_lsac.aux)
+[13 <./pic/gr_2_4.png (PNG copy)>]
+<pic/sch_3.png, id=207, 662.475pt x 435.42674pt>
+File: pic/sch_3.png Graphic file (type png)
+<use pic/sch_3.png>
+Package pdftex.def Info: pic/sch_3.png  used on input line 601.
+(pdftex.def)             Requested size: 344.27837pt x 226.28368pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[14]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 608.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 608.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 608.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 608.
+
+<pic/gr_3.png, id=214, 526.96875pt x 395.22656pt>
+File: pic/gr_3.png Graphic file (type png)
+<use pic/gr_3.png>
+Package pdftex.def Info: pic/gr_3.png  used on input line 611.
+(pdftex.def)             Requested size: 275.42374pt x 206.57436pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[15 <./pic/sch_3.png (PNG copy)>]
+Overfull \hbox (38.37108pt too wide) in paragraph at lines 616--616
+[]\T2A/cmr/bx/n/14.4 Многоканальная си-сте-ма в фор-ме вход-состояние-
+ []
+
+<pic/sch_4.png, id=222, 714.87074pt x 347.49825pt>
+File: pic/sch_4.png Graphic file (type png)
+<use pic/sch_4.png>
+Package pdftex.def Info: pic/sch_4.png  used on input line 684.
+(pdftex.def)             Requested size: 344.27837pt x 167.3593pt.
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[16 <./pic/gr_3.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 689.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 689.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 689.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 689.
+
+<pic/gr_4.png, id=228, 526.96875pt x 395.22656pt>
+File: pic/gr_4.png Graphic file (type png)
+<use pic/gr_4.png>
+Package pdftex.def Info: pic/gr_4.png  used on input line 691.
+(pdftex.def)             Requested size: 275.42374pt x 206.57436pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[17 <./pic/sch_4.png (PNG copy)>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[18 <./pic/gr_4.png (PNG copy)>] (./lab_1_lsac.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
 Package rerunfilecheck Info: File `lab_1_lsac.out' has not changed.
-(rerunfilecheck)             Checksum: 7D79723A7612F2B35E5904F0A35B6C10;4841.
+(rerunfilecheck)             Checksum: 48BC6D76EC4E920708937E990ED1B645;7020.
  ) 
 Here is how much of TeX's memory you used:
- 53092 strings out of 475734
- 1312989 string characters out of 5786229
+ 53167 strings out of 475734
+ 1314383 string characters out of 5786229
  2018069 words of memory out of 5000000
- 73157 multiletter control sequences out of 15000+600000
+ 73215 multiletter control sequences out of 15000+600000
  528813 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,89p,763b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
-/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/
-sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
-fb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tex
-live/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2023/
-texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/typ
-e1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/
-cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
-fti1200.pfb>
-Output written on lab_1_lsac.pdf (14 pages, 490208 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/te
+xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023
+/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
+/cm-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/
+sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
+fb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/tex
+live/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/
+texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on lab_1_lsac.pdf (19 pages, 764355 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
